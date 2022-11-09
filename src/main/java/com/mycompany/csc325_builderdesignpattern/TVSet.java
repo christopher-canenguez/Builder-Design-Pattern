@@ -1,4 +1,3 @@
-
 package com.mycompany.csc325_builderdesignpattern;
 
 /**
@@ -6,7 +5,7 @@ package com.mycompany.csc325_builderdesignpattern;
  * @author MoaathAlrajab
  */
 public class TVSet {
-    
+
     private int screenSize;
     private int numberOfProcessors;
     private String brand;
@@ -19,14 +18,12 @@ public class TVSet {
         this.numberOfProcessors = numberOfProcessors;
         this.brand = brand;
         this.enabledIoT = enabledIoT;
-    }
+    } // End TVSet.
 
     @Override
     public String toString() {
-        return "TVSet{" + "screenSize=" + screenSize + ", numberOfProcessors=" 
-                + numberOfProcessors + ", brand=" + brand + ", enabledIoT=" 
+        return "TVSet{" + "screenSize=" + screenSize + ", numberOfProcessors="
+                + numberOfProcessors + ", brand=" + brand + ", enabledIoT="
                 + enabledIoT + '}';
-    }
-    
-    
-}
+    } // End toString.
+} // End TVSet.
